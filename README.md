@@ -79,9 +79,9 @@ A segurança é implementada através de uma corrente de filtros customizada:
 ## ⚙️ Configuração e Execução
 
 1. **Clonar repositório**
-```bash
-git clone [https://github.com/seu-usuario/spring-auth-api.git](https://github.com/seu-usuario/spring-auth-api.git)
-```
+
+git clone [https://github.com/alexandrecarloss/security.git](https://github.com/alexandrecarloss/security.git)
+
 
 2. **Configurar Banco de Dados**
 Altere o src/main/resources/application.properties com suas credenciais PostgreSQL:
