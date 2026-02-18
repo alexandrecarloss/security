@@ -86,12 +86,12 @@ git clone [https://github.com/alexandrecarloss/security.git](https://github.com/
 2. **Configurar Banco de Dados**
 Altere o src/main/resources/application.properties com suas credenciais PostgreSQL:
 ```bash
-spring.datasource.url=jdbc:postgresql://localhost:5432/auth_db
+# No arquivo src/main/resources/application.properties:
+spring.datasource.url=jdbc:postgresql://localhost:5432/nome_do_seu_banco
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
-api.security.token.secret=${JWT_SECRET:my-secret-key}
 ```
-
+  
 3. **Executar a aplicação**
 ```bash
 mvn spring-boot:run
