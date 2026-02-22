@@ -8,7 +8,7 @@
 </div>
 
 ## 📌 Sobre o Projeto
-Esta é uma API REST robusta desenvolvida com **Spring Boot 3** focada em autenticação e autorização escalável. O projeto implementa um sistema de controle de acesso baseado em Roles (RBAC), utilizando **Spring Security 7** e tokens **JWT (JSON Web Tokens)** para manter o estado stateless da aplicação.
+Esta é uma API REST robusta desenvolvida com **Spring Boot 4** focada em autenticação e autorização escalável. O projeto implementa um sistema de controle de acesso baseado em Roles (RBAC), utilizando **Spring Security 7** e tokens **JWT (JSON Web Tokens)** para manter o estado stateless da aplicação.
 
 Foi projetado como o módulo de segurança central para futuros projetos, garantindo que diferentes níveis de usuários (ADMIN, USER) acessem apenas os recursos permitidos.
 
